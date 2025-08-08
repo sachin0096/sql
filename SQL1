@@ -1,0 +1,21 @@
+-- Online SQL Editor to Run SQL Online.
+-- Use the editor to create new tables, insert data and all other SQL operations.
+  
+  --create table sales(sales_id int,product_id int,quantity_sold int,sale_date int);
+  --insert into sales(sales_id,product_id,quantity_sold,sale_date)
+--values(6,106,2,"2024-08-07");
+
+---create table product(product_id int,product_name varchar,category varchar,unit_price int)
+--insert into product(product_id,product_name,category,unit_price)
+--values(106,"smartwatch","electronic",450.00);
+--select * from product;
+--select * from sales;
+--select product_name,unit_price from product;
+--select product_id,sale_date ,quantity_sold from sales;
+--select * from product where unit_price>500;
+--select  sales_id,sale_date from sales;
+--select product_id,unit_price from product;
+--select * from product where category="electronic";
+--select sales_id,sale_date  from sales
+--where sale_date="2024-01-01";
+select sum(quantity_sold) as total from sales;
