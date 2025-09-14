@@ -1,0 +1,15 @@
+-- Online SQL Editor to Run SQL Online.
+-- Use the editor to create new tables, insert data and all other SQL operations.
+  
+  --create table emp(emp_id int,emp_name varchar,job varchar,hire_date int,salary int,deptment varchar);
+  --insert into emp(emp_id,emp_name,job,hire_date,salary,deptment)
+--values(107,"ayush","election","19/2/2021",15000,"tata");
+
+--select* from emp;
+--elect  emp_name,salary from emp where salary >(select avg(salary) from emp);
+--select distinct salary,emp_name from emp;
+--select * from emp where deptment="salesman";
+--select first_name,last_name from Customers;
+--select distinct deptment from emp;
+--select emp_name from emp where salary<20000;
+--select deptment ,count(*) from emp group by deptment;
